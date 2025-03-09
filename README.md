@@ -5,3 +5,9 @@ Kullanılan veri seti, telefonlara ait çeşitli teknik özellikleri ve fiyat ar
 Manuel model, Sklearn modeline kıyasla daha hızlı eğitilmiştir. Sklearn modelinin ise test süresi daha kısa sürmüştür. Modellerin confusion matrix sonuçları aynı çıkmıştır.
 False negative değerlerin false pozitive değerlerden fazla olması nedeniyle recall değeri precisiona göre daha fazla önem arz etmektedir. Confusion matrixin sonuçları görece yüksektir.
 
+KAYNAKÇA
+https://www.kaggle.com/datasets/jacksondivakarr/phone-classification-dataset/data
+https://scikit-learn.org/stable/modules/naive_bayes.html
+https://www.geeksforgeeks.org/gaussian-naive-bayes/
+https://medium.com/@gulcanogundur/do%C4%9Fruluk-accuracy-kesinlik-precision-duyarl%C4%B1l%C4%B1k-recall-ya-da-f1-score-300c925feb38
+
