@@ -11,4 +11,8 @@ Scikit-learn'de bulunan Logistic Regression modeli kullanılarak sınıflandırm
   
 Sklearn modelinin training süresi custom modele göre çok daha kısa iken costom modelin test süresi minimal düzeyde daha hızlı gerçekleşmiş.
 Custom model label = 0 durumlarını tahmin ederken daha iyi sonuç vermiş. Sklearn modelisi label = 1 durumlarında daha iyi performans göstermiş.
-
+Ağırlıklandırma yaklaşımı ve eşik değerindeki farklar nedeniyle Scikit-learn modeli azınlık sınıfında daha yüksek Recall değerine ulaşırken, Özel Logistic Regression modeli her iki sınıfta daha dengeli bir performans göstermektedir.
+KAYNAKÇA
+https://www.kaggle.com/datasets/ehsanreghabi/helicopters-accidents-dataset
+https://www.blog.trainindata.com/oversampling-techniques-for-imbalanced-data/
+https://www.spiceworks.com/tech/artificial-intelligence/articles/what-is-logistic-regression/
