@@ -1,4 +1,5 @@
 Veri seti çeşitli özellikleri verilen helikopterlerlerin kaza yaptığı ve yapmadığı durumları göstermektedir. Kullanılan model de bu özelliklere göre helikopterin çarpıp çarpmayağını tahmin etmektedir.
+
 Sınıflandırılmak istenilen veri setinde sınıf sayısı dengesiz olduğu için model helikopterlerin çarptığı durumları tahmin edememektedir bu yüzden azınlık sınıfını (Label = 1) çoğaltmak için Random Oversampling yöntemi kullanılmıştır. Böylece sınıf dağılımı dengelenmiş ve modelin her iki sınıfa da duyarlı olması sağlanmıştır.
 Scikit-learn'de bulunan Logistic Regression modeli kullanılarak sınıflandırma yapılmıştır. Ayrıca, Ağırlıklı Gradient Descent algoritmasıyla sıfırdan Logistic Regression modeli yazılmıştır. Bu modelde sınıf dengesizliği için kayıplar ağırlıklandırılmıştır.
 
