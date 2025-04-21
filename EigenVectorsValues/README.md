@@ -20,12 +20,12 @@ linalg.py veya linalg/lapack_lite klasörü: Python ile LAPACK entegrasyonu bura
 
 Karşılaşltırma:
 
-| Özellik       | NumPy `eig` Sonucu         | Manuel Hesaplama Sonucu     | Fark           |
-|---------------|----------------------------|------------------------------|----------------|
-| Özdeğer 1     | 3.0                        | 3.0                          | ✅ Aynı        |
-| Özdeğer 2     | 2.0                        | 2.0                          | ✅ Aynı        |
-| Özvektör 1    | [0.894, 0.447]             | [0.894, 0.447]               | ✅ Aynı        |
-| Özvektör 2    | [0.707, 0.707]             | [0.707, 0.707]               | ✅ Aynı        |
+| Özellik       | NumPy `eig` Sonucu         | Manuel Hesaplama Sonucu     | Fark          |
+|---------------|----------------------------|------------------------------|--------------|
+| Özdeğer 1     | 3.0                        | 3.0                          |  Aynı        |
+| Özdeğer 2     | 2.0                        | 2.0                          |  Aynı        |
+| Özvektör 1    | [0.894, 0.447]             | [0.894, 0.447]               |  Aynı        |
+| Özvektör 2    | [0.707, 0.707]             | [0.707, 0.707]               |  Aynı        |
 
 | Özellik                 | NumPy `eig` Fonksiyonu                                         | Manuel Hesaplama                           |
 |-------------------------|----------------------------------------------------------------|---------------------------------------------------------------|
