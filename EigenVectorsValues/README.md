@@ -17,3 +17,13 @@ numpy.linalg.eig, bir karesel matrisin özdeğerlerini ve özvektörlerini hesap
 Yüksek seviyeli Python arayüzü olarak çalışır. Arka planda, LAPACK içerisindeki dgeev veya zgeev gibi fonksiyonlara çağrı yapar. Bu LAPACK fonksiyonları C ve Fortran dillerinde yazılmıştır ve çok hızlıdır. Sonuç olarak, hem özdeğer hem de özvektörler çift olarak döndürülür.
 
 linalg.py veya linalg/lapack_lite klasörü: Python ile LAPACK entegrasyonu burada yapılır. umath_linalg.c.src: Düşük seviyeli matematiksel işlemler burada tanımlıdır.
+
+KAYNAKÇA
+
+https://techntales.medium.com/mastering-matrices-a-comprehensive-guide-for-machine-learning-ded60c178d06
+
+https://www.geeksforgeeks.org/matrices-and-matrix-arithmetic-for-machine-learning/
+
+https://www.geeksforgeeks.org/applications-of-eigenvalues-and-eigenvectors/
+
+https://www.datacamp.com/tutorial/eigenvectors-eigenvalues
