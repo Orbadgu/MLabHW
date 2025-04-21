@@ -27,7 +27,7 @@ Karşılaşltırma:
 | Özvektör 1    | [0.894, 0.447]             | [0.894, 0.447]               | ✅ Aynı        |
 | Özvektör 2    | [0.707, 0.707]             | [0.707, 0.707]               | ✅ Aynı        |
 
-| Özellik                 | NumPy `eig` Fonksiyonu                                         | Manuel Hesaplama (El veya Kodla)                             |
+| Özellik                 | NumPy `eig` Fonksiyonu                                         | Manuel Hesaplama                           |
 |-------------------------|----------------------------------------------------------------|---------------------------------------------------------------|
 | **Doğruluk**            | Numerik olarak optimize edilmiştir, yüksek doğruluk sağlar.    | Doğru ama küçük hesaplama veya yuvarlama hatalarına açıktır. |
 | **Hız ve Performans**   | Büyük matrislerde çok hızlıdır (LAPACK kullanır).              | Küçük matrisler için uygun; büyük matrislerde yavaştır.       |
