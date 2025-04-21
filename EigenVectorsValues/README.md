@@ -18,6 +18,12 @@ Yüksek seviyeli Python arayüzü olarak çalışır. Arka planda, LAPACK içeri
 
 linalg.py veya linalg/lapack_lite klasörü: Python ile LAPACK entegrasyonu burada yapılır. umath_linalg.c.src: Düşük seviyeli matematiksel işlemler burada tanımlıdır.
 
+Özellik | NumPy eig | Manuel Hesaplama | Fark
+Özdeğer 1 | 3.0 | 3.0 | ✅ Aynı
+Özdeğer 2 | 2.0 | 2.0 | ✅ Aynı
+Özvektör 1 | [0.894, 0.447] | [0.894, 0.447] | ✅ Aynı (normalize edilmiş)
+Özvektör 2 | [0.707, 0.707] | [0.707, 0.707] | ✅ Aynı (normalize edilmiş)
+
 KAYNAKÇA
 
 https://techntales.medium.com/mastering-matrices-a-comprehensive-guide-for-machine-learning-ded60c178d06
