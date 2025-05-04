@@ -18,4 +18,10 @@ Ayrıca sk-learn, model doğrulama, hiperparametre ayarı, çoklu değişkenli r
 
 Bu karşılaştırma, hem teorik hem de uygulamalı olarak doğrusal regresyon modellerinin nasıl çalıştığını göstermektedir. Manuel olarak yapılan hesaplamalarla scikit-learn çıktılarının birebir aynı olması, kullanılan araçlara olan güveni artırmakta ve doğru bir modelleme süreci izlendiğini teyit etmektedir.
 
+KAYNAKÇA
+
 https://www.kaggle.com/datasets/mariumfaheem666/top-rated-movies/data
+
+https://www.geeksforgeeks.org/understanding-logistic-regression/
+
+https://heena-sharma.medium.com/logistic-regression-python-implementation-from-scratch-without-using-sklearn-d3fca7d3dae7
