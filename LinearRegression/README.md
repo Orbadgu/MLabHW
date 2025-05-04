@@ -17,3 +17,5 @@ Manuel yöntem, algoritmanın mantığını anlamak açısından önemlidir; eğ
 Ayrıca sk-learn, model doğrulama, hiperparametre ayarı, çoklu değişkenli regresyon gibi ileri seviye işlemleri de desteklediğinden daha ölçeklenebilir ve esnek bir çözümdür.
 
 Bu karşılaştırma, hem teorik hem de uygulamalı olarak doğrusal regresyon modellerinin nasıl çalıştığını göstermektedir. Manuel olarak yapılan hesaplamalarla scikit-learn çıktılarının birebir aynı olması, kullanılan araçlara olan güveni artırmakta ve doğru bir modelleme süreci izlendiğini teyit etmektedir.
+
+https://www.kaggle.com/datasets/mariumfaheem666/top-rated-movies/data
