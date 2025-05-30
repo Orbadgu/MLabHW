@@ -5,4 +5,5 @@ Veri, eğitim ve test olmak üzere %80-%20 oranında bölünmüş, ardından de�
 |-----------------|--------------------|---------------------|
 | Tahmin: 1       | TP = 252           | FP = 70             |
 | Tahmin: 0       | FN = 63            | TN = 215            |
+
 Bu tabloya göre model, pozitif ve negatif sınıfları genel olarak dengeli şekilde ayırt edebilmiştir. Ancak pozitif sınıfa (iyi kalite şarap) ait bazı örnekleri kaçırdığı (FN), bazı negatifleri ise yanlış şekilde pozitif tahmin ettiği (FP) görülmektedir. Bu da modelin iyileştirilebilir yönleri olduğunu göstermektedir.
